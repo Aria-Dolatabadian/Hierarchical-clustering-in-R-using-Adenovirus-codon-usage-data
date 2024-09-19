@@ -7,7 +7,7 @@ library(clv)
 library(ggplot2)
 library(pheatmap)
 #Import data
-codon_usage <- read.csv("path/codon_usage.csv")
+codon_usage <- read.csv("codon_usage.csv")
 View(codon_usage)
 #Make the data object adenodat which will be used for data wrangling
 adenodat=codon_usage
